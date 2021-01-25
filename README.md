@@ -1993,7 +1993,7 @@ To enable JetStream in a server we have to configure it at the top level first:
 jetstream: enabled
 ```
 
-This will dynamically determine the available resources. It's recommended that you set specific limits though:
+This will dynamically determine the available resources. It's recommended that you set specific limits through:
 
 ```
 jetstream {
@@ -2003,7 +2003,7 @@ jetstream {
 }
 ```
 
-At this point JetStream will be enabled and if you have a server that does not have accounts enabled all users in the server would have access to JetStream
+At this point JetStream will be enabled and if you have a server that does not have accounts enabled, all users in the server would have access to JetStream
 
 ```
 jetstream {
